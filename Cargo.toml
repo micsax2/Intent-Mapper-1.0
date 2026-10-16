@@ -1,0 +1,12 @@
+[package]
+name = "intent_mapper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.28"          # GUI Framework
+hound = "3.5"            # WAV reader
+rustfft = "6.2"          # Spectral analysis (STFT)
+rfd = "0.14"             # Native file dialogs
+rust-music-theory = "0.4" # Music theory chord and scale mapping
+
